@@ -1,0 +1,125 @@
+body{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+/*limpiesa de listas*/
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.s .blass_1{
+    box-shadow:0px 2px 8px 1px grey; 
+}
+.left{
+    display: inline-block;
+    margin-left:4%;
+}
+.nav {
+    background-color:black;
+    opacity: 0.9;
+    position:absolute;
+    width: 100%;
+    height: 10%;
+}
+.shory_1{
+    margin:0%;
+    padding: 0%;
+    top:12%;
+    position:absolute;
+    background-color: whitesmoke;
+    width:50%;
+    height: 85%;
+    overflow: hidden;
+}
+.shory_2{
+    top:12%;
+    position:absolute;
+    background-color:orange ;
+    opacity: 0.7;
+    width:50%;
+    height: 85%;
+    left: 50.3%;
+}
+.text_nav{
+    color:red;
+    font-family: 'amita';
+}
+.text_nav_2{
+    color:whitesmoke;
+    font-family: 'amita';
+}
+.text_nav_2:hover{
+    color:orange;
+}
+h2{
+    font-family:'amita';
+    font-size:20px;
+    margin-left:30px;
+    color:black;
+    width: 100%   
+}
+button{
+    background: orange;
+    border: solid orange 2px;
+    border-radius:3px 4px 2px 2px;
+    position: absolute;
+    top:76%;
+    margin:0%;
+    padding:0%;
+    left: 30%;
+}
+p{
+    position: relative;
+    left:40%;
+}
+input{
+    color:orange;
+    background: red;
+    text-align: center;
+    position:relative;
+    display: inline-flex;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    border-bottom-style:line;
+    border-top-style:none;
+    border-left-style:none;
+    border-right-style:none;
+}
+.blass_1 {
+   position:relative;
+   width: 0%;
+   height: 0%;
+   margin-bottom:13%;
+   left:30%;
+    
+}
+.blass_1:hover{
+   background:red;
+   opacity: 0.7;
+   width: 30%;
+   height: 30%;
+   margin:6px 0px 0px 2px;
+   border-radius: 6px 6px 6px 6px;
+   transition: 1s;
+}
+.blass_2{
+    left: 10%;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    margin-left:10%;
+    background: orange;
+    overflow: hidden;
+}
+.blass_2:hover{
+    background:red;
+    width: 60%;
+    height:54%;
+}
